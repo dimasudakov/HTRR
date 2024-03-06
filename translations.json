@@ -34,6 +34,22 @@
     "slide-2_title-3": "The conference aims to assess the capabilities of young researchers, students, and professionals in research endeavors, fostering project initiatives, and facilitating the free exchange of information and viewpoints among scientists and practitioners in the area of hard-to-recover-reserves. The conference provides a valuable platform for young researchers to showcase their scientific findings, forge new connections, and share knowledge.",
     "slide-2_control-dates": "Target dates",
 
+    "timer-text-94e5e71e9523089f00db837c98916c02-days": "days",
+    "timer-text-94e5e71e9523089f00db837c98916c02-hours": "hours",
+    "timer-text-94e5e71e9523089f00db837c98916c02-minutes": "minutes",
+    "timer-text-94e5e71e9523089f00db837c98916c02-secundes": "seconds",
+    "timer-text-575def82400b7d6f5653dfdc9b0927c9-days": "days",
+    "timer-text-575def82400b7d6f5653dfdc9b0927c9-hours": "hours",
+    "timer-text-575def82400b7d6f5653dfdc9b0927c9-minutes": "minutes",
+    "timer-text-575def82400b7d6f5653dfdc9b0927c9-secundes": "seconds",
+    "timer-text-aa2b1b5572338a5f11f9ba0e93c3768e-days": "days",
+    "timer-text-aa2b1b5572338a5f11f9ba0e93c3768e-hours": "hours",
+    "timer-text-aa2b1b5572338a5f11f9ba0e93c3768e-minutes": "minutes",
+    "timer-text-aa2b1b5572338a5f11f9ba0e93c3768e-secundes": "seconds",
+
+    "time-left-title": "Remaining until the deadline for accepting abstracts",
+    "send-docs": "Submit abstracts",
+
     "slide-3_ways": "Sections",
     "slide-3_way-1_1": "Innovative technologies for research, development and exploration of hard-to-recover hydrocarbon reserves",
     "slide-3_way-2_1": "Integrated modeling of HTR reservoirs",
@@ -101,10 +117,26 @@
     "slide-1_action-4": "Подпишитесь на нас",
     "slide-1_action-5": "Шаблон оформления тезисов",
 
-    "slide-2_title-1": "Казанский (Приволжский) федеральный университет совместно с Альметьевским государственным нефтяным институтом приглашает  молодых специалистов, студентов, магистрантов и аспирантов принять участие в Ежегодной Международной конференции ",
+    "slide-2_title-1": "Альметьевский государственный технологический университет «Высшая школа нефти» (АГТУ-ВШН) и Казанский (Приволжский) федеральный университет (К(П)ФУ приглашают ученых, специалистов,аспирантов и студентов принять участие в Ежегодной Международной конференции",
     "slide-2_title-2": "«Трудноизвлекаемые запасы нефти - 2024»",
-    "slide-2_title-3": "Конференция проводится в целях выявления способностей молодых исследователей, студентов и специалистов к научно-исследовательской деятельности, формирования проектных инициатив, предоставления ученым, практикующим специалистам возможности свободного обмена информацией и мнениями по теории и практике в области геохимических исследований свойств пластовых флюидов и гидродинамического моделирования. Конференция является прекрасной возможностью для молодых исследователей представить свои научные результаты, завести рабочие знакомства и обменяться знаниями.",
+    "slide-2_title-3": "Конференция проводится в целях формирования проектных инициатив, предоставления ученым, практикующим специалистам ведущих нефтедобывающих компаний возможности для свободного обмена информацией и ценным опытом в области разработки трудноизвлекаемых запасов нефти. Конференция является прекрасной возможностью для участников представить результаты своих научных трудов, обсудить актуальные вопросы современных нефтедобывающих технологий и обменяться опытом.",
     "slide-2_control-dates": "Контрольные даты",
+
+    "timer-text-94e5e71e9523089f00db837c98916c02-days": "дней",
+    "timer-text-94e5e71e9523089f00db837c98916c02-hours": "часов",
+    "timer-text-94e5e71e9523089f00db837c98916c02-minutes": "минут",
+    "timer-text-94e5e71e9523089f00db837c98916c02-secundes": "секунд",
+    "timer-text-575def82400b7d6f5653dfdc9b0927c9-days": "дней",
+    "timer-text-575def82400b7d6f5653dfdc9b0927c9-hours": "часов",
+    "timer-text-575def82400b7d6f5653dfdc9b0927c9-minutes": "минут",
+    "timer-text-575def82400b7d6f5653dfdc9b0927c9-secundes": "секунд",
+    "timer-text-aa2b1b5572338a5f11f9ba0e93c3768e-days": "дней",
+    "timer-text-aa2b1b5572338a5f11f9ba0e93c3768e-hours": "часов",
+    "timer-text-aa2b1b5572338a5f11f9ba0e93c3768e-minutes": "минут",
+    "timer-text-aa2b1b5572338a5f11f9ba0e93c3768e-secundes": "секунд",
+
+    "time-left-title": "Осталось до окончания приёма тезисов докладов",
+    "send-docs": "Подать тезисы",
 
     "slide-3_ways": "Направления конференции",
     "slide-3_way-1_1": "Инновационные технологии исследований, освоения и разработки трудноизвлекаемых запасов УВ",
@@ -140,6 +172,6 @@
     "footer-person": "Семенова Алия Аликовна",
     "footer-phone": "+7 (986) 712-94-93",
     "footer_location-title": "Место проведения",
-    "footer_location": "Альметьевский государственный нефтяной институт,\nРеспублика Татарстан, г. Альметьевск, ул. Советская, 212к2"
+    "footer_location": "Высшая школа нефти,\nРеспублика Татарстан, г. Альметьевск, ул. Советская, 212к2"
   }
 }

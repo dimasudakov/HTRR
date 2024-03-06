@@ -1,0 +1,37 @@
+.parallax__group-time-left {
+    height: auto;
+    padding: max(5vh, 40px) var(--page-content-padding);
+}
+
+@media screen and (max-width: 999px) {
+    .parallax__group-time-left {
+        height: auto
+    }
+}
+
+.parallax__group-time-left {
+    display: flex;
+    flex-direction: column;
+    gap: max(3vh, 30px);
+
+    .title {
+        color: white;
+    }
+    .time-left {
+        width: min-content;
+    }
+    .send-docs {
+        width: min-content;
+        background: var(--linear-gradient-1);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        cursor: pointer;
+        text-wrap: nowrap;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .parallax__group-time-left {
+        padding: max(5vh, 40px) var(--page-content-padding-mobile)
+    }
+}

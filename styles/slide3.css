@@ -75,7 +75,11 @@
                 display: flex;
                 flex-direction: column;
                 padding: 6%;
-                p {
+                ul {
+                    margin: 0;
+                    padding-left: 10px;
+                }
+                li {
                     color: white;
                     margin: 1% 0;
                 }

@@ -28,6 +28,22 @@ function changePageLang() {
         }
     }
     
+    if(currentLang === "En") {
+        if(document.getElementById('footer-person-li')) {
+            document.getElementById('footer-person-li').style.display = 'none';
+        }
+        if(document.getElementById('footer-phone-li')) {
+            document.getElementById('footer-phone-li').style.display = 'none';
+        }
+    } else {
+        if(document.getElementById('footer-person-li')) {
+            document.getElementById('footer-person-li').style.display = 'flex';
+        }
+        if(document.getElementById('footer-phone-li')) {
+            document.getElementById('footer-phone-li').style.display = 'flex';
+        }
+    }
+    
     document.getElementById('header-logo').src = "assets/header/" + currentLang.toLowerCase() + "-logo.png"
     
     if(document.getElementById('slide-2_timeline')) {

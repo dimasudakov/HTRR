@@ -13,7 +13,7 @@ header {
     background-position: center center;
     border-color: transparent;
     border-style: solid;
-    background-color: var(--header-background-color);
+    backdrop-filter: blur(20px);
     overflow: hidden;
 }
 
@@ -25,6 +25,12 @@ header {
     text-decoration: none;
     cursor: pointer;
     user-select: none;
+}
+
+.tg-logo-header {
+    margin-left: max(40px, 5vw);
+    height: 70%;
+    cursor: pointer;
 }
 
 .header-logo-big {

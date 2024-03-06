@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="styles/slide1.css">
     <link rel="stylesheet" href="styles/slide2.css">
     <link rel="stylesheet" href="styles/slide3.css">
+    <link rel="stylesheet" href="styles/time-left.css">
     <link rel="stylesheet" href="styles/slide4.css">
     <link rel="stylesheet" href="styles/loop-strip.css">
     <link rel="stylesheet" href="styles/footer.css">
@@ -25,7 +26,7 @@
 <div id="mobile-nav-bar"></div>
 
 <div id="parallax" class="parallax">
-    <img src="assets/backtop.svg" alt="" class="backtop" id="backtop">
+    <img id="backtop" class="backtop" src="assets/backtop.svg" alt=""/>
 
     <div id="group1" class="parallax__group-1">
         <div class="payload ">
@@ -59,6 +60,20 @@
         <!--    slide-2/index.js    -->
     </div>
 
+    <div id="group-time-left" class="parallax__group-time-left">
+        <div class="title f-1" id="time-left-title"></div>
+        <div class="time-left" id="timebar-big">
+            <script src="//megatimer.ru/get/94e5e71e9523089f00db837c98916c02.js"></script>
+        </div>
+        <div class="time-left" id="timebar-medium">
+            <script src="//megatimer.ru/get/575def82400b7d6f5653dfdc9b0927c9.js"></script>
+        </div>
+        <div class="time-left" id="timebar-small">
+            <script src="//megatimer.ru/get/aa2b1b5572338a5f11f9ba0e93c3768e.js"></script>
+        </div>
+        <div class="send-docs f-0_8" id="send-docs">Подать тезисы</div>
+    </div>
+
     <div id="group3" class="parallax__group-3">
         <img class="lines" src="assets/slide3/lines.svg" alt="">
         <div id="slide-3_ways" class="title f-2"></div>
@@ -67,34 +82,42 @@
                 <div id="slide-3_name-1" class="name f-mx1_5"></div>
                 <div class="divider"></div>
                 <div class="text">
-                    <p id="slide-3_way-1_1" class="f-mx0_8"></p>
+                    <ul>
+                        <li id="slide-3_way-1_1" class="f-mx0_8"></li>
+                    </ul>
                 </div>
             </div>
             <div class="way-item">
                 <div id="slide-3_name-2" class="name f-mx1_5"></div>
                 <div class="divider"></div>
                 <div class="text">
-                    <p id="slide-3_way-2_1" class="f-mx0_8"></p>
-                    <p id="slide-3_way-2_2" class="f-mx0_8"></p>
-                    <p id="slide-3_way-2_3" class="f-mx0_8"></p>
+                    <ul>
+                        <li id="slide-3_way-2_1" class="f-mx0_8"></li>
+                        <li id="slide-3_way-2_2" class="f-mx0_8"></li>
+                        <li id="slide-3_way-2_3" class="f-mx0_8"></li>
+                    </ul>
                 </div>
             </div>
             <div class="way-item">
                 <div id="slide-3_name-3" class="name f-mx1_5"></div>
                 <div class="divider"></div>
                 <div class="text">
-                    <p id="slide-3_way-3_1" class="f-mx0_8"></p>
-                    <p id="slide-3_way-3_2" class="f-mx0_8"></p>
-                    <p id="slide-3_way-3_3" class="f-mx0_8"></p>
+                    <ul>
+                        <li id="slide-3_way-3_1" class="f-mx0_8"></li>
+                        <li id="slide-3_way-3_2" class="f-mx0_8"></li>
+                        <li id="slide-3_way-3_3" class="f-mx0_8"></li>
+                    </ul>
                 </div>
             </div>
             <div class="way-item">
                 <div id="slide-3_name-4" class="name f-mx1_5"></div>
                 <div class="divider"></div>
                 <div class="text">
-                    <p id="slide-3_way-4_1" class="f-mx0_8"></p>
-                    <p id="slide-3_way-4_2" class="f-mx0_8"></p>
-                    <p id="slide-3_way-4_3" class="f-mx0_8"></p>
+                    <ul>
+                        <li id="slide-3_way-4_1" class="f-mx0_8"></li>
+                        <li id="slide-3_way-4_2" class="f-mx0_8"></li>
+                        <li id="slide-3_way-4_3" class="f-mx0_8"></li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -126,11 +149,11 @@
             <div class="loop-group">
                 <div class="title f-mx1" id="loop-strip_organizers-1">Организаторы</div>
                 <div class="logo-container">
-                    <a href="https://geo.kpfu.ru/" target="_blank">
-                        <img src="assets/loop-strip/ru-kpfu.svg" alt="" id="kpfu" class="logo">
-                    </a>
                     <a href="https://agni-rt.ru/" target="_blank">
                         <img src="assets/loop-strip/ru-agni.png" alt="" id="agni" class="logo">
+                    </a>
+                    <a href="https://geo.kpfu.ru/" target="_blank">
+                        <img src="assets/loop-strip/ru-kpfu.svg" alt="" id="kpfu" class="logo">
                     </a>
                 </div>
             </div>
@@ -158,11 +181,11 @@
             <div class="loop-group">
                 <div class="title f-mx1" id="loop-strip_organizers-2">Организаторы</div>
                 <div class="logo-container">
-                    <a href="https://geo.kpfu.ru/" target="_blank">
-                        <img src="assets/loop-strip/ru-kpfu.svg" alt="" id="kpfu2" class="logo">
-                    </a>
                     <a href="https://agni-rt.ru/" target="_blank">
                         <img src="assets/loop-strip/ru-agni.png" alt="" id="agni2" class="logo">
+                    </a>
+                    <a href="https://geo.kpfu.ru/" target="_blank">
+                        <img src="assets/loop-strip/ru-kpfu.svg" alt="" id="kpfu2" class="logo">
                     </a>
                 </div>
             </div>
@@ -203,5 +226,6 @@
 <script type="text/javascript" src="./js/scroll/backtop.js"></script>
 <script type="text/javascript" src="./js/actions/actions.js"></script>
 <script type="text/javascript" src="./js/language/language.js"></script>
+<script type="text/javascript" src="./js/timebar-handler.js"></script>
 
 </body>

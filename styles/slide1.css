@@ -1,18 +1,9 @@
-.shell-top {
-    position: fixed;
-    right: -3vw;
-    top: 100px;
-    width: 25vw;
-    height: auto;
-    min-width: 200px;
-}
-
 .parallax__group-1 {
     display: flex;
     align-items: center;
     position: relative;
     width: 100%;
-    min-height: 80vh;
+    min-height: max(80vh, 800px);
     background: radial-gradient(29.59% 15.64% at 13.47% 84.36%, #00A9B9 0%, #204B99 38.15%, #000000 100%);
 }
 

@@ -20,13 +20,13 @@ const footerContent = `
             <div class="contacts">
                 <div class="title f-2" id="footer_contacts-title"></div>
                 <ul>
-                    <li>
+                    <li id="footer-person-li">
                         <div class="logo-wrapper">
                             <img src="assets/footer/logo-user.png" alt="" class="logo abs-center" />
                         </div>
                         <div id="footer-person" class="f-mx1"></div>
                     </li>
-                    <li>
+                    <li id="footer-phone-li">
                         <div class="logo-wrapper">
                             <img src="assets/footer/logo-call.png" alt="" class="logo abs-center" />
                         </div>
@@ -59,7 +59,7 @@ const footerContent = `
 const footerContentMobile = `
         <img class="back-mobile-1" src="assets/footer/mobile-c-1.svg" alt="">
         <img class="back-mobile-2" src="assets/footer/mobile-c-2.svg" alt="">
-        <img class="back-mobile-3" src="assets/footer/mobile-c-3.svg" alt="">
+<!--        <img class="back-mobile-3" src="assets/footer/mobile-c-3.svg" alt="">-->
         <img class="back-mobile-4" src="assets/footer/mobile-c-4.svg" alt="">
         <img class="back-mobile-5" src="assets/footer/mobile-c-5.svg" alt="">
         <img class="back-mobile-6" src="assets/footer/mobile-c-6.svg" alt="">
@@ -100,16 +100,15 @@ const footerContentMobile = `
                 <div class="title f-0_8" id="footer_location-title"></div>
                 <div class="f-mx0_6" id="footer_location"></div>
             </div>
-            <div class="map-wrapper">
-                <img src="assets/footer/map-wrapper.png" alt="" class="stroke">
-                <div class="map-container">
+            <div class="map-wrapper-m">
+                <div class="map-container-m">
                     <iframe class="yandex-map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A2985f6f0724324f8077d7bd49ac30c6f5c2e96a902c3b537c88db2f689d77e95&amp;source=constructor"></iframe>
                 </div>
             </div>
         </div>
 `
 
-const footerLimit = 900;
+const footerLimit = 1000;
 
 function updateFooter() {
 

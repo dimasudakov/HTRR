@@ -3,7 +3,7 @@
     position: relative;
     z-index: 1;
     height: 80vh;
-    min-height: 400px;
+    min-height: 600px;
     padding: 0 100px 0 50px;
     align-items: center;
 }
@@ -101,16 +101,17 @@
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     .footer {
         flex-direction: column;
-        padding: 0 0 0 15px;
-        height: min-content;
+        padding: 0 0 0 0;
+        height: auto;
+        min-height: 0;
 
         .contacts {
             z-index: 1;
-            margin-top: 40px;
-            margin-bottom: 20px;
+            margin: 40px 30px 20px 30px;
+
             .title {
                 font-weight: 700;
                 color: white;
@@ -157,8 +158,10 @@
         .bottom {
             z-index: 1;
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             justify-content: space-between;
+            width: 100%;
+            flex: 1;
 
             .location {
                 display: flex;
@@ -166,37 +169,25 @@
                 color: white;
                 flex: 1;
                 gap: 10px;
+                margin: 0 30px 20px 30px;
 
                 .title {
                     font-weight: bold;
                 }
             }
-            .map-wrapper {
-                width: calc(1486 / 1412 * 66vw);  /*картинка не совсем квадратная*/
-                height: 66vw;
+            .map-wrapper-m {
+                display: flex;
+                width: 100%;
+                height: 30vh;
+                overflow: hidden;
 
-                .stroke {
+                .map-container-m {
                     width: 100%;
                     height: 100%;
-                }
 
-                .map-container {
-                    position: absolute;
-                    width: calc(67.5% / (1486 / 1412));
-                    height: 67.2%;
-                    left: 17.4%;
-                    top: 16%;
-                    bottom: 0;
-                    right: 0;
-                    border-radius: 100%;
-                    border: 2px solid white;
-                    overflow: hidden;
                     .yandex-map {
-                        position: absolute;
-                        height: 200%;
-                        width: 200%;
-                        left: -50%;
-                        top: -50%;
+                        width: 100%;
+                        height: 100%;
                     }
                 }
             }
@@ -264,7 +255,7 @@
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     .footer {
         .back-mobile-1 {
             position: absolute;

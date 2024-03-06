@@ -98,8 +98,18 @@ if(navbarSignUp) navbarSignUp.addEventListener('click', function() {
     window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSfatxuGtKkXNncB26GQBg0F7biL_2lqGsasfD20kfUe2iQk9w/viewform?usp=sf_link';
 })
 
+const sendDocsSignUp = document.getElementById('send-docs')
+if(sendDocsSignUp) sendDocsSignUp.addEventListener('click', function() {
+    window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSfatxuGtKkXNncB26GQBg0F7biL_2lqGsasfD20kfUe2iQk9w/viewform?usp=sf_link';
+})
+
 const navbarTgLink = document.getElementById('navbar_tg-link')
 if(navbarTgLink) navbarTgLink.addEventListener('click', function() {
+    window.location.href = 'https://t.me/htr_conf';
+})
+
+const headerTgLink = document.getElementById('tg-link-header')
+if(headerTgLink) headerTgLink.addEventListener('click', function() {
     window.location.href = 'https://t.me/htr_conf';
 })
 
