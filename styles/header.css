@@ -14,6 +14,7 @@ header {
     border-color: transparent;
     border-style: solid;
     backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     overflow: hidden;
 }
 
