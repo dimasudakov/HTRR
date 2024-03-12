@@ -46,3 +46,33 @@
         }
     }
 }
+
+.div-button-u {
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-u {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    width: 20%;
+    color: white;
+    background: radial-gradient(65.24% 82.04% at 75.37% 92.62%, #0EE5CD 0%, #0094F1 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 0px 0px 50px rgba(14, 229, 205, 0.5);
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .div-button-u {
+        height: 10vw;
+    }
+    .button-u {
+        width: 40%;
+        height: 60%;
+    }
+}
