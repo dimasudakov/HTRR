@@ -43,6 +43,12 @@ document.getElementById('slide-1_action-5').addEventListener('click', function()
     document.body.removeChild(link);
 });
 
+document.getElementById('logo-tg').addEventListener('click', function() {
+    var url = 'https://t.me/karb0n_ru';
+
+    window.location.href = url;
+});
+
 
 
 // document.getElementById('download-doc').addEventListener('click', function() {
