@@ -73,6 +73,9 @@
 
     "slide-4_terms": "Participation Terms",
 
+    "button-u": "Become a Participant",
+    "button-tez": "Submit abstracts",
+
     "loop-strip_organizers-1": "ORGANIZERS",
     "loop-strip_partners-1": "PARTNERS OF THE SCIENTIFIC PROGRAM",
     "loop-strip_info-1": "INFORMATIONAL PARTNER",
@@ -161,6 +164,9 @@
 
     "slide-4_terms": "Условия участия",
 
+    "button-u": "Стать участником",
+    "button-tez": "Подать тезис",
+
     "loop-strip_organizers-1": "ОРГАНИЗАТОРЫ",
     "loop-strip_partners-1": "ПАРТНЕРЫ НАУЧНОЙ ПРОГРАММЫ",
     "loop-strip_info-1": "ИНФОРМАЦИОННЫЙ ПАРТНЕР",
@@ -172,6 +178,6 @@
     "footer-person": "Семенова Алия Аликовна",
     "footer-phone": "+7 (986) 712-94-93",
     "footer_location-title": "Место проведения",
-    "footer_location": "Высшая школа нефти,\nРеспублика Татарстан, г. Альметьевск, ул. Советская, 212к2"
+    "footer_location": "Альметьевский государственный нефтяной институт,\n Республика Татарстан, г. Альметьевск, ул. Советская, 212к2"
   }
 }

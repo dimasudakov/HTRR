@@ -154,6 +154,9 @@
     .w-45 {
         width: 45%;
     }
+    .w-100 {
+        width: 100%;
+    }
 
 
     .actions-btn {
@@ -174,7 +177,6 @@
         width: 67%;
         display: flex;
         align-items: center;
-        text-decoration: underline;
         color: black;
         align-self: flex-end;
         border-right: none;
@@ -185,6 +187,7 @@
         width: auto;
         height: 100%;
         margin-right: 10px;
+        cursor: pointer;
     }
 
     .actions-btn-reg {
@@ -200,6 +203,7 @@
         border: 1px solid var(--grey-color-1);
         border-right: none;
         padding-left: 1vw;
+        cursor: pointer;
     }
 
     .actions-btn-tg {
@@ -214,6 +218,7 @@
         border: 1px solid var(--grey-color-1);
         border-right: none;
         padding-left: 1vw;
+        cursor: pointer;
     }
 
     .actions-btn:not(.blocked):hover {

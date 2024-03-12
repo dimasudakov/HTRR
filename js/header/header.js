@@ -15,7 +15,6 @@ function updateHeader() {
     <a class="header-item-reg fokus-reg f-mx1" href="https://docs.google.com/forms/d/e/1FAIpQLScjIwM_fqLaUyaJCpZesMHfJPYK167f-lKuGipJBYgEXpsh0Q/viewform?usp=sf_link" id="header_sign_up"></a>
     <div class="header-item f-mx1" id="header_contacts"></div>
     <a class="header-item f-mx1" id="langButton">Ru / Eng</a>
-    <img src="assets/tg-logo.png" class="tg-logo-header" id="tg-link-header">
   `;
 
     const mobileHeader = `
