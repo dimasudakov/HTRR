@@ -151,6 +151,12 @@
     .w-55 {
         width: 55%;
     }
+    .w-45 {
+        width: 45%;
+    }
+    .w-100 {
+        width: 100%;
+    }
 
 
     .actions-btn {
@@ -164,6 +170,55 @@
         border: 1px solid var(--grey-color-1);
         border-right: none;
         padding-left: 1vw;
+    }
+
+    .actions-tg-div {
+        height: 5vh;
+        width: 67%;
+        display: flex;
+        align-items: center;
+        color: black;
+        align-self: flex-end;
+        border-right: none;
+        padding-left: 1vw;
+    }
+
+    .logo-tg {
+        width: auto;
+        height: 100%;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    .actions-btn-reg {
+        height: 5vh;
+        width: 80%;
+        border-radius: 50vh 0 0 50vh;
+        display: flex;
+        align-items: center;
+        background: white;
+        text-decoration: underline;
+        color: black;
+        align-self: flex-end;
+        border: 1px solid var(--grey-color-1);
+        border-right: none;
+        padding-left: 1vw;
+        cursor: pointer;
+    }
+
+    .actions-btn-tg {
+        height: 5vh;
+        width: 100%;
+        border-radius: 50vh 0 0 50vh;
+        display: flex;
+        align-items: center;
+        background: rgba(35, 55, 108, 0.5);
+        color: white;
+        align-self: flex-end;
+        border: 1px solid var(--grey-color-1);
+        border-right: none;
+        padding-left: 1vw;
+        cursor: pointer;
     }
 
     .actions-btn:not(.blocked):hover {

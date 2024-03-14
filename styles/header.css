@@ -21,9 +21,21 @@ header {
 .header-item {
     height: 100%;
     text-align: center;
+    padding: 5px;
 
     color: white;
     text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+}
+
+.header-item-reg {
+    height: 100%;
+    text-align: center;
+    padding: 10px;
+
+    color: black;
+    text-decoration: underline;
     cursor: pointer;
     user-select: none;
 }
@@ -43,6 +55,12 @@ header {
 .header-logo {
     display: flex;
     align-items: center;
+}
+
+.fokus-reg {
+    border-radius: 30px;
+    background: white;
+    height: 30%;
 }
 
 .header-wrapper {
