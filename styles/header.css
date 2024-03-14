@@ -6,7 +6,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 10001;
+    z-index: 10002;
     height: var(--header-height);
     min-height: 60px;
     width: 100%;
