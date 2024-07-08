@@ -1,0 +1,22 @@
+
+.parallax__group-6 {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    padding: 0 0;
+}
+
+.parallax__group-6 {
+
+    .img_6 {
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .parallax__group-6 {
+        display: none;
+    }
+}

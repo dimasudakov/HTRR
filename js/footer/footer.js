@@ -13,25 +13,13 @@ const footerContent = `
         <div class="map-wrapper">
             <img src="assets/footer/map-wrapper.png" alt="" class="stroke">
             <div class="map-container">
-                <iframe class="yandex-map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A2985f6f0724324f8077d7bd49ac30c6f5c2e96a902c3b537c88db2f689d77e95&amp;source=constructor"></iframe>
+                <iframe class="yandex-map" src="https://yandex.ru/map-widget/v1/?um=constructor%3Ac599549dd8da89aaab88df54f2f0b71c6bfa88fcf14e420b37e47f394b570fa7&amp;source=constructor"></iframe>
             </div>
         </div>
         <div class="info">
             <div class="contacts">
                 <div class="title f-2" id="footer_contacts-title"></div>
                 <ul>
-                    <li id="footer-person-li">
-                        <div class="logo-wrapper">
-                            <img src="assets/footer/logo-user.png" alt="" class="logo abs-center" />
-                        </div>
-                        <div id="footer-person" class="f-mx1"></div>
-                    </li>
-                    <li id="footer-phone-li">
-                        <div class="logo-wrapper">
-                            <img src="assets/footer/logo-call.png" alt="" class="logo abs-center" />
-                        </div>
-                        <div id="footer-phone" class="f-mx1"></div>
-                    </li>
                     <li>
                         <div class="logo-wrapper">
                             <img src="assets/footer/logo-email.png" alt="" class="logo abs-center" />
@@ -47,6 +35,38 @@ const footerContent = `
                         </a>
                     </li>
                 </ul>
+                <div class="persons">
+                    <div class="person-1">
+                        <div id="univer-1" class="univer f-mx0_8">hello</div>
+                        <li id="footer-person-li">
+                            <div class="logo-wrapper">
+                                <img src="assets/footer/logo-user.png" alt="" class="logo abs-center" />
+                            </div>
+                            <div id="footer-person" class="f-mx1"></div>
+                        </li>
+                        <li id="footer-phone-li">
+                            <div class="logo-wrapper">
+                                <img src="assets/footer/logo-call.png" alt="" class="logo abs-center" />
+                            </div>
+                            <div id="footer-phone" class="f-mx1"></div>
+                        </li>
+                    </div>
+                    <div class="person-2">
+                        <div id="univer-2" class="univer f-mx0_8">hello</div>
+                        <li id="footer-person-li">
+                            <div class="logo-wrapper">
+                                <img src="assets/footer/logo-user.png" alt="" class="logo abs-center" />
+                            </div>
+                            <div id="footer-person-2" class="f-mx1"></div>
+                        </li>
+                        <li id="footer-phone-li">
+                            <div class="logo-wrapper">
+                                <img src="assets/footer/logo-call.png" alt="" class="logo abs-center" />
+                            </div>
+                            <div id="footer-phone-2" class="f-mx1"></div>
+                        </li>
+                    </div>
+                </div>
             </div>
             <div class="location">
                 <div class="title f-2" id="footer_location-title">Место проведения</div>
@@ -69,6 +89,22 @@ const footerContentMobile = `
             <ul>
                 <li>
                     <div class="logo-wrapper">
+                        <img src="assets/footer/logo-tg.png" alt="" class="logo abs-center" />
+                    </div>
+                    <a href="https://t.me/htr_conf">
+                        <div class="f-mx1">@htr_conf</div>
+                    </a>
+                </li>
+                <li>
+                    <div class="logo-wrapper">
+                        <img src="assets/footer/logo-email.png" alt="" class="logo abs-center" />
+                    </div>
+                    <div class="f-mx1">htr.conf@gmail.com</div>
+                </li>
+                
+                <div id="univer-1" class="univer f-mx0_6"></div>
+                <li>
+                    <div class="logo-wrapper">
                         <img src="assets/footer/logo-user.png" alt="" class="logo abs-center" />
                     </div>
                     <div id="footer-person" class="f-mx0_6 a"></div>
@@ -79,19 +115,19 @@ const footerContentMobile = `
                     </div>
                     <div id="footer-phone" class="f-mx1 a"></div>
                 </li>
+                
+                <div id="univer-2" class="univer f-mx0_6"></div>
                 <li>
                     <div class="logo-wrapper">
-                        <img src="assets/footer/logo-email.png" alt="" class="logo abs-center" />
+                        <img src="assets/footer/logo-user.png" alt="" class="logo abs-center" />
                     </div>
-                    <div class="f-mx1">htr.conf@gmail.com</div>
+                    <div id="footer-person-2" class="f-mx0_6 a"></div>
                 </li>
                 <li>
                     <div class="logo-wrapper">
-                        <img src="assets/footer/logo-tg.png" alt="" class="logo abs-center" />
+                        <img src="assets/footer/logo-call.png" alt="" class="logo abs-center" />
                     </div>
-                    <a href="https://t.me/htr_conf">
-                        <div class="f-mx1">@htr_conf</div>
-                    </a>
+                    <div id="footer-phone-2" class="f-mx1 a"></div>
                 </li>
             </ul>
         </div>
@@ -102,7 +138,7 @@ const footerContentMobile = `
             </div>
             <div class="map-wrapper-m">
                 <div class="map-container-m">
-                    <iframe class="yandex-map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A2985f6f0724324f8077d7bd49ac30c6f5c2e96a902c3b537c88db2f689d77e95&amp;source=constructor"></iframe>
+                    <iframe class="yandex-map" src="https://yandex.ru/map-widget/v1/?um=constructor%3Ac599549dd8da89aaab88df54f2f0b71c6bfa88fcf14e420b37e47f394b570fa7&amp;source=constructor"></iframe>
                 </div>
             </div>
         </div>

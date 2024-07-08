@@ -70,6 +70,7 @@
     "slide-3_tables-text-1": "Main frontrunners in the field of HTR reserves",
     "slide-3_tables-text-2": "Environmental aspects of the HTR reserves development",
     "slide-3_tables-text-3": "Advanced training in HTR reserves development",
+    "slide-3_tables-text-4": "Economic incentives, cost reductions and import substitution in the development of HTR reserves",
 
     "slide-4_terms": "Participation Terms",
 
@@ -84,8 +85,12 @@
     "loop-strip_info-2": "INFORMATIONAL PARTNER",
 
     "footer_contacts-title": "Contacts",
-    "footer-person": "-----------------",
-    "footer-phone": "+7 (800) 555-35-35",
+    "footer-person": "Minekaeva Dina",
+    "footer-phone": "+7 (939) 391-96-48",
+    "footer-person-2": "Kamenov Renat",
+    "footer-phone-2": "+7 (908) 113-47-32",
+    "univer-1": "Kazan (Volga Region) Federal University",
+    "univer-2": "Almetyevsk State Oil Institute «Petroleum High School»",
     "footer_location-title": "Location",
     "footer_location": "Almetyevsk State Oil Institute, 212k2 Sovetskaya str., Almetyevsk, Republic of Tatarstan, Russia  "
   },
@@ -161,6 +166,8 @@
     "slide-3_tables-text-1": "Основные фронтиры в области разработки ТрИЗН",
     "slide-3_tables-text-2": "Экологические аспекты разработки ТрИЗН",
     "slide-3_tables-text-3": "Подготовка кадров для разработки ТрИЗН",
+    "slide-3_tables-text-4": "Экономическое стимулирование, сокращение расходов и импортозамещение при разработке ТрИЗН",
+
 
     "slide-4_terms": "Условия участия",
 
@@ -175,8 +182,13 @@
     "loop-strip_info-2": "ИНФОРМАЦИОННЫЙ ПАРТНЕР",
 
     "footer_contacts-title": "Контакты",
-    "footer-person": "Семенова Алия Аликовна",
-    "footer-phone": "+7 (986) 712-94-93",
+    "footer-person": "Минекаева Дина Ростамовна",
+    "footer-phone": "+7 (939) 391-96-48",
+    "footer-person-2": "Каменов Ренат Уахитович",
+    "footer-phone-2": "+7 (908) 113-47-32",
+    "univer-1": "Казанский (Приволжский) федеральный университет",
+    "univer-2": "Альметьевский государственный технологический университет «Высшая школа нефти»",
+
     "footer_location-title": "Место проведения",
     "footer_location": "Альметьевский государственный технологический университет «Высшая школа нефти» (АГТУ-ВШН),\n Республика Татарстан, г. Альметьевск, ул. Советская, 212к2"
   }

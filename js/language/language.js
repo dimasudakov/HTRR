@@ -28,22 +28,6 @@ function changePageLang() {
         }
     }
     
-    if(currentLang === "En") {
-        if(document.getElementById('footer-person-li')) {
-            document.getElementById('footer-person-li').style.display = 'none';
-        }
-        if(document.getElementById('footer-phone-li')) {
-            document.getElementById('footer-phone-li').style.display = 'none';
-        }
-    } else {
-        if(document.getElementById('footer-person-li')) {
-            document.getElementById('footer-person-li').style.display = 'flex';
-        }
-        if(document.getElementById('footer-phone-li')) {
-            document.getElementById('footer-phone-li').style.display = 'flex';
-        }
-    }
-    
     document.getElementById('header-logo').src = "assets/header/" + currentLang.toLowerCase() + "-logo.png"
     
     if(document.getElementById('slide-2_timeline')) {
@@ -65,6 +49,9 @@ function changePageLang() {
     if(document.getElementById('agni')) {
         document.getElementById('agni').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-agni.png"
     }
+    if(document.getElementById('spb')) {
+        document.getElementById('spb').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-spb.png"
+    }
     if(document.getElementById('tatneft')) {
         document.getElementById('tatneft').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-tatneft.svg"
     }
@@ -81,6 +68,9 @@ function changePageLang() {
     if(document.getElementById('agni2')) {
         document.getElementById('agni2').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-agni.png"
     }
+    if(document.getElementById('spb2')) {
+        document.getElementById('spb2').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-spb.png"
+    }
     if(document.getElementById('tatneft2')) {
         document.getElementById('tatneft2').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-tatneft.svg"
     }
@@ -89,6 +79,10 @@ function changePageLang() {
     }
     if(document.getElementById('geo2')) {
         document.getElementById('geo2').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-georesources.svg"
+    }
+
+    if(document.getElementById('slide-6_content')) {
+        document.getElementById('slide-6_content').src = "assets/slide6/" + currentLang.toLowerCase() + "-slide-6.png"
     }
 }
 
