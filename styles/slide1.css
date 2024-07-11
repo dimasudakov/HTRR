@@ -197,7 +197,7 @@
         display: flex;
         align-items: center;
         background: white;
-        text-decoration: underline;
+        text-decoration: none;
         color: black;
         align-self: flex-end;
         border: 1px solid var(--grey-color-1);

@@ -98,7 +98,10 @@
                     height: 100%;
 
                     .univer {
+                        display: flex;
+                        align-items: center;
                         margin: 0 0 10px 10px;
+                        min-height: 52px;
                     }
                 }
             }

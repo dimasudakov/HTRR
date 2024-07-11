@@ -4,6 +4,7 @@
     flex-direction: column;
     z-index: 1;
     padding: 0 0;
+    position: relative
 }
 
 .parallax__group-6 {
@@ -12,6 +13,15 @@
         width: 100%;
         display: block;
         height: auto;
+    }
+
+    .link {
+        position: absolute;
+        left: 8%;
+        right: 40%;
+        z-index: 109032439;
+        top: 37%;
+        bottom: 26%;
     }
 }
 

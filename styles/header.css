@@ -35,7 +35,7 @@ header {
     padding: 10px;
 
     color: black;
-    text-decoration: underline;
+    text-decoration: none;
     cursor: pointer;
     user-select: none;
 }

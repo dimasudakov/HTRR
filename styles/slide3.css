@@ -47,11 +47,13 @@
         flex-wrap: wrap;
         z-index: 1;
 
+
         .way-item {
             display: flex;
             flex-direction: column;
             flex: 1;
-            height: max(300px, 30vh);
+            min-height: max(350px, 33vh);
+            height: 100%;
             background: radial-gradient(100.15% 100% at 0% 100%, rgba(0, 169, 185, 0.9) 0%, rgba(32, 75, 153, 0.9) 76.08%, rgba(30, 62, 121, 0.9) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
             border-radius: 20px;
 
@@ -60,7 +62,7 @@
                 align-items: center;
                 color: white;
                 font-weight: bold;
-                height: 20%;
+                min-height: 80px;
                 padding: 6%;
             }
 
