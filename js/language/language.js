@@ -61,6 +61,9 @@ function changePageLang() {
     if(document.getElementById('geo')) {
         document.getElementById('geo').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-georesources.svg"
     }
+    if(document.getElementById('tatnipi')) {
+        document.getElementById('tatnipi').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-tatnipi.png"
+    }
 
     if(document.getElementById('kpfu2')) {
         document.getElementById('kpfu2').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-kpfu.svg"
@@ -79,6 +82,9 @@ function changePageLang() {
     }
     if(document.getElementById('geo2')) {
         document.getElementById('geo2').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-georesources.svg"
+    }
+    if(document.getElementById('tatnipi2')) {
+        document.getElementById('tatnipi2').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-tatnipi.png"
     }
 
     if(document.getElementById('slide-6_content')) {
