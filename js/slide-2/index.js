@@ -6,6 +6,7 @@ const contentDesktop = `
         </div>
         <img src="assets/slide2/image.png" alt="" class="image">
         <img src="assets/slide2/ru-timeline.png" alt="" class="timeline" id="slide-2_timeline">
+        <div class="rec f-mx0_8" id="slide-2_rec"></div>
 `
 
 const contentMobile = `
@@ -20,6 +21,7 @@ const contentMobile = `
                 <img src="./assets/slide2/ru-dates-mobile.png" alt="" class="dates" id="slide-2_dates">
                 <img src="./assets/slide2/image.png" alt="" class="image-mobile">
             </div>
+            <div style="color: white;" class="f-mx0_6" id="slide-2_rec">hello</div>
         </div>
 `
 

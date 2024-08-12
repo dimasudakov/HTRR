@@ -24,6 +24,10 @@ const content = `
                 <img src="assets/header/arrow-right.svg" alt="" class="li-logo" />
             </li>
             <li class="ml-30 navbar-action">
+                <div id="navbar_annotation"></div>
+                <img src="assets/header/arrow-right.svg" alt="" class="li-logo" />
+            </li>
+            <li class="ml-30 navbar-action">
                 <div id="navbar_sign_up"></div>
                 <img src="assets/header/arrow-right.svg" alt="" class="li-logo" />
             </li>

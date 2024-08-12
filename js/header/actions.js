@@ -93,6 +93,21 @@ if(navbarTezis) navbarTezis.addEventListener('click', function() {
     document.body.removeChild(link);
 })
 
+const navbarAnnotation = document.getElementById('navbar_annotation')
+if(navbarAnnotation) navbarAnnotation.addEventListener('click', function() {
+    const path = '/docs/annotation_example.docx';
+
+    const link = document.createElement('a');
+    link.href = path;
+    link.download = 'annotation_example.docx';
+    link.target = '_blank';
+
+    document.body.appendChild(link);
+    link.click();
+
+    document.body.removeChild(link);
+})
+
 const navbarSignUp = document.getElementById('navbar_sign_up')
 if(navbarSignUp) navbarSignUp.addEventListener('click', function() {
     window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSfatxuGtKkXNncB26GQBg0F7biL_2lqGsasfD20kfUe2iQk9w/viewform?usp=sf_link';

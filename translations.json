@@ -14,6 +14,7 @@
     "navbar_terms": "Participation Terms",
     "navbar_program": "Conference Program",
     "navbar_tezis": "Abstract Template",
+    "navbar_annotation": "Short Abstract Template",
     "navbar_sign_up": "Become a Participant",
     "navbar_tg-link": "Subscribe",
     "navbar_contacts": "Contacts",
@@ -28,11 +29,13 @@
     "slide-1_action-3": "Conference Program",
     "slide-1_action-4": "Subscribe",
     "slide-1_action-5": "Abstract Template",
+    "slide-1_action-6": "Short Abstract Template",
 
     "slide-2_title-1": "Almetyevsk State Oil Institute «Petroleum High School» with Kazan (Volga Region) Federal University, Saint Petersburg Mining University and Tatar Oil Research and Design Institutetogether invites scientists, practicing specialists, students, undergraduates and postgraduates to participate in the Annual International Conference ",
     "slide-2_title-2": "«Hard-to-recover Reserves 2024»",
     "slide-2_title-3": "The conference aims to assess the capabilities of young researchers, students, and professionals in research endeavors, fostering project initiatives, and facilitating the free exchange of information and viewpoints among scientists and practitioners in the area of hard-to-recover-reserves. The conference provides a valuable platform for young researchers to showcase their scientific findings, forge new connections, and share knowledge.",
     "slide-2_control-dates": "Target dates",
+    "slide-2_rec": "after the program committee has reviewed the annotations and its positive assessment, it will be necessary to send the abstract of the report",
 
     "timer-text-582bbe233f8879979fc873504078c9a0-days": "days",
     "timer-text-582bbe233f8879979fc873504078c9a0-hours": "hours",
@@ -110,6 +113,7 @@
     "navbar_terms": "Регламент участия",
     "navbar_program": "Программа конференции",
     "navbar_tezis": "Шаблон оформления тезисов",
+    "navbar_annotation": "Шаблон оформления аннотации",
     "navbar_sign_up": "Стать участником",
     "navbar_tg-link": "Присоединяйся к нам",
     "navbar_contacts": "Контакты",
@@ -124,11 +128,13 @@
     "slide-1_action-3": "Программа конференции",
     "slide-1_action-4": "Подпишитесь на нас",
     "slide-1_action-5": "Шаблон оформления тезисов",
+    "slide-1_action-6": "Шаблон оформления аннотации",
 
     "slide-2_title-1": "Альметьевский государственный технологический университет «Высшая школа нефти» совместно с Казанским (Приволжским) федеральным университетом, Санкт-Петербургским горным университетом и Татарским научно-исследовательским и проектным институтом нефти приглашают ученых, практикующих специалистов, студентов, магистрантов и аспирантов принять участие в Ежегодной Международной конференции",
     "slide-2_title-2": "«Трудноизвлекаемые запасы нефти - 2024»",
     "slide-2_title-3": "Конференция проводится в целях формирования проектных инициатив, предоставления ученым, практикующим специалистам ведущих нефтедобывающих компаний возможности для свободного обмена информацией и ценным опытом в области разработки трудноизвлекаемых запасов нефти. Конференция является прекрасной возможностью для участников представить результаты своих научных трудов, обсудить актуальные вопросы современных нефтедобывающих технологий и обменяться опытом.",
     "slide-2_control-dates": "Контрольные даты",
+    "slide-2_rec": "после рассмотрения программным комитетом аннотаций и ее положительной оценке, необходимо будет направить тезис доклада",
 
     "timer-text-582bbe233f8879979fc873504078c9a0-days": "дней",
     "timer-text-582bbe233f8879979fc873504078c9a0-hours": "часов",
