@@ -15,10 +15,21 @@
     }
 
     .content {
-        display: block;
+        position: relative;
+        display: flex;
         width: 100%;
         height: auto;
     }
+    .hotels-link {
+        position: absolute;
+        cursor: pointer;
+        z-index: 100;
+        width: 18%;
+        height: 25%;
+        top: 0;
+        right: 0;
+    }
+
     .content-mobile {
         display: none;
     }
@@ -37,12 +48,23 @@
         .content {
             display: none;
         }
+
         .content-mobile {
             position: absolute;
             left: -30%;
             display: block;
             width: 125%;
             height: auto;
+        }
+
+        .hotels-link-mobile {
+            position: absolute;
+            cursor: pointer;
+            z-index: 100;
+            width: 53%;
+            height: 7%;
+            bottom: 15%;
+            right: 5%;
         }
     }
 }
@@ -70,7 +92,7 @@
 
 @media screen and (max-width: 600px) {
     .div-button-u {
-        height: 10vw;
+        height: max(10vw, 50px);
     }
     .button-u {
         width: 40%;

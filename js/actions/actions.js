@@ -65,6 +65,27 @@ document.getElementById('logo-tg').addEventListener('click', function() {
 });
 
 
+const downloadHotels = () => {
+    const path = '/docs/отели АГНИ 2024.pdf';
+
+    const link = document.createElement('a');
+    link.href = path;
+    link.download = 'отели АГНИ 2024.pdf';
+    link.target = '_blank';
+
+    document.body.appendChild(link);
+    link.click();
+
+    document.body.removeChild(link);
+}
+
+if (document.getElementById('hotels-link-1')) {
+    document.getElementById('hotels-link-1').addEventListener('click', downloadHotels)
+}
+if (document.getElementById('hotels-link-2')) {
+    document.getElementById('hotels-link-2').addEventListener('click', downloadHotels)
+}
+
 
 // document.getElementById('download-doc').addEventListener('click', function() {
 //     var path = '/docs/reglament.pdf';
