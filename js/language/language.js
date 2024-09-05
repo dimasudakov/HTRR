@@ -90,6 +90,13 @@ function changePageLang() {
     if(document.getElementById('slide-6_content')) {
         document.getElementById('slide-6_content').src = "assets/slide6/" + currentLang.toLowerCase() + "-slide-6.png"
     }
+    
+    if(document.getElementById('slide-7_content')) {
+        document.getElementById('slide-7_content').src = "assets/path/" + currentLang.toLowerCase() + "-path.png"
+    }
+    if(document.getElementById('slide-7_content-mobile')) {
+        document.getElementById('slide-7_content-mobile').src = "assets/path/" + currentLang.toLowerCase() + "-path-mobile.png"
+    }
 }
 
 function loadTranslations() {
