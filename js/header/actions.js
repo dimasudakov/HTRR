@@ -21,11 +21,11 @@ if (headerTerms) headerTerms.addEventListener('click', function() {
 
 const headerProgram= document.getElementById('header_program')
 if (headerProgram) headerProgram.addEventListener('click', function() {
-    const path = '/docs/conference_program.pdf';
+    const path = '/docs/conference_program.docx';
 
     const link = document.createElement('a');
     link.href = path;
-    link.download = 'conference_program.pdf';
+    link.download = 'conference_program.docx';
     link.target = '_blank';
 
     document.body.appendChild(link);
@@ -65,11 +65,11 @@ if(navbarTerms) navbarTerms.addEventListener('click', function() {
 
 const navbarProgram = document.getElementById('navbar_program')
 if(navbarProgram) navbarProgram.addEventListener('click', function() {
-    const path = '/docs/conference_program.pdf';
+    const path = '/docs/conference_program.docx';
 
     const link = document.createElement('a');
     link.href = path;
-    link.download = 'conference_program.pdf';
+    link.download = 'conference_program.docx';
     link.target = '_blank';
 
     document.body.appendChild(link);

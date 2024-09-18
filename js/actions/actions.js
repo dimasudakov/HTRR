@@ -11,11 +11,11 @@ document.getElementById('slide-1_action-2').addEventListener('click', function()
 
 // TODO add document
 document.getElementById('slide-1_action-3').addEventListener('click', function() {
-    var path = '/docs/conference_program.pdf';
+    var path = '/docs/conference_program.docx';
 
     var link = document.createElement('a');
     link.href = path;
-    link.download = 'conference_program.pdf';
+    link.download = 'conference_program.docx';
     link.target = '_blank';
 
     document.body.appendChild(link);
