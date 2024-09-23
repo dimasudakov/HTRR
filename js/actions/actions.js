@@ -24,6 +24,20 @@ document.getElementById('slide-1_action-3').addEventListener('click', function()
     document.body.removeChild(link);
 });
 
+document.getElementById('slide-1_action_0').addEventListener('click', function() {
+    var path = '/docs/links_23-24.09.docx';
+
+    var link = document.createElement('a');
+    link.href = path;
+    link.download = 'links_23-24.09.docx';
+    link.target = '_blank';
+
+    document.body.appendChild(link);
+    link.click();
+
+    document.body.removeChild(link);
+});
+
 document.getElementById('slide-1_action-4').addEventListener('click', function() {
     window.location.href = 'https://t.me/htr_conf';
 });
